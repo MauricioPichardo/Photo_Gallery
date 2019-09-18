@@ -1,0 +1,66 @@
+
+/* Code for Lightbox */
+
+header{
+  align-content: center;
+  padding:50px;
+  text-align: center;
+}
+body{
+  align-content: center;
+}
+
+.container {
+  width:100%;
+  flex-wrap: wrap;
+  }
+
+input[type="text"] {
+    min-width: 30%;
+    border-radius:5px;
+    font-size: 16pt;
+    line-height: 2rem;
+    max-width:250px;
+  }
+
+.featherweight{
+  padding: 25px;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+input:focus {
+  background-color: lightgray;
+}
+
+textarea:focus {
+  background-color: lightgray;
+}
+
+
+
+@media (min-width: 768px) {
+
+
+.container {
+  display:flex;
+  justify-content: center;
+  align-content: stretch;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.featherweight{
+  align-self: center;
+}
+
+img {
+  display:flex;
+}
+
+}
