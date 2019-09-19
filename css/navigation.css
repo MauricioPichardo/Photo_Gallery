@@ -22,11 +22,11 @@ input[type=text] {
   max-width: 250px;
 }
 
-img {
+.thm {
   display: block;
-  padding: 25px;
   margin-left: auto;
   margin-right: auto;
+  padding: 25px;
 }
 
 input:focus {

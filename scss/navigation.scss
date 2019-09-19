@@ -23,16 +23,12 @@ input[type="text"] {
     max-width:250px;
   }
 
-.featherweight{
 
-}
-
-
-img {
+.thm {
   display: block;
-  padding: 25px;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
+    padding: 25px;
 }
 
 input:focus {
@@ -62,6 +58,7 @@ textarea:focus {
 
 img {
   display:flex;
+
 }
 
 }
